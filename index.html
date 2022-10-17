@@ -5,4 +5,15 @@
     <body>
         test tset
     </body>
+    <script>
+
+        const blinkerFunction = function() {
+            setInterval(() => {
+                document.title = new Date();
+            }, 1000);
+        }
+
+        blinkerFunction();
+
+    </script>
 </html>
